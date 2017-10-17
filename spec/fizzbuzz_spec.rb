@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe Fizzbuzz do
+describe FizzBuzz do
   # it 'should print Fizz instead of multiples of 3'
   #   game = Fizzbuzz.new
   # end
