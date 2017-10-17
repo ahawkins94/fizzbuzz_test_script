@@ -9,6 +9,14 @@ describe FizzBuzz do
     expect(result[2]).to eq('Fizz')
   end
 
+  it 'should print Buzz instead of multiples of 5' do
+    game = FizzBuzz.new
+
+    result = game.sequence
+
+    expect(result[4]).to eq('Buzz')
+  end
+
   it 'should generate numbers from 1 to 100' do
     game = FizzBuzz.new
 
